@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, .container {
+  height: 100%;
+  margin:0;
+  overflow: hidden;
+  background-image: url(../img/corner-field-flag-47343.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+}
+
+.jatekos {
+  background-image: url('../img/ember1.png');
+  width: 2.625rem;
+  height: 8rem;
+  margin-left: 1rem;
+}
+
+.jatekos:hover {
+  background-image: url('../img/ember2.png');
+}
+
+#kiallitva {
+  background-image: url('../img/ember3.png');
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto;
+}
+
+@media (max-height: 600px){
+  .jatekos {
+  background-size: cover;
+  width: 1.96875rem;
+  height: 6rem;
+  }
+  
+#kiallitva {
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  }
+}
